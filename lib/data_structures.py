@@ -24,9 +24,9 @@ def get_spiciest_foods(spicy_foods):
 
 def print_spicy_foods(spicy_foods):
     for food in spicy_foods:
-        word_output =""
-        word_output += food.get("name") + " " + "(" + food.get("cuisine") + ")" + " " + "|" + " " + "Heat Level: " + ("🌶" * food.get("heat_level"))
-        print(word_output)
+        spicy_food =""
+        spicy_food += food.get("name") + " " + "(" + food.get("cuisine") + ")" + " " + "|" + " " + "Heat Level: " + ("🌶" * food.get("heat_level"))
+        print(spicy_food)
     
 def get_spicy_food_by_cuisine(spicy_foods, cuisine):
     for food in spicy_foods:
